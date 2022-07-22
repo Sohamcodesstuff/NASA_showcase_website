@@ -1,0 +1,90 @@
+body {
+    background-color:#033b92;
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   color: white;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+#logo{
+    width:80px;
+    height:80px;
+}
+#logo1, #logo2, #logo3, #logo4{
+    width: 80px;
+    height:80px;
+}
+#img2, #img3, #mars, #apollo{
+    height: 616px;
+    width:616px;
+}
+
+.blurb p {
+    color: white;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1rem;
+    font-weight: 300;    
+}
+
+#mainNavbar .nav-link {
+    color:  white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #fc3d21;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    color: white;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.navbar.scrolled {
+    background:darkred;
+    transition: background 200ms;
+}
+.clone{
+    color: white;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
